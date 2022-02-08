@@ -1,0 +1,35 @@
+
+h1 {
+    text-align: center;
+};
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+i {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+/* Set the style for the a tag */
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+}
+/* set the style for the active class */
+.pagination a.active {
+background-color: dodgerblue;
+color: white;
+}
+/* add background color when user hovers on inactive class */
+.pagination a:hover:not(.active) {
+background-color: #ddd;
+}
